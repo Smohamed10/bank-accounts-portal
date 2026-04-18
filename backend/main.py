@@ -13,7 +13,7 @@ app.add_middleware(
 )
 
 # -----------------------
-# DB CONNECTION
+# DB CONNECTION jjjj
 # -----------------------
 def get_db():
     return psycopg2.connect(
