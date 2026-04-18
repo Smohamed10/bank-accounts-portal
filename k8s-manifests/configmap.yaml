@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: bank-app-config
+    namespace: bank-dev
+data:
+  APP_ENV: development
+  APP_NAME: 'Bank Accounts Portal'
+  DB_HOST: postgresql
+  DB_NAME: bankdb
+  LOG_LEVEL: debug
+  API_URL: 'http://bank-backend:8000'
+  REACT_APP_API_URL: 'https://bank-backend-bank-dev.apps-crc.testing'
